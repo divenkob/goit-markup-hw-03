@@ -49,14 +49,14 @@ ul {
  /*Header*/
 
  .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0 24px;
+    border-bottom: 1px solid #e7e9fc;
  }
 
 .header-navigation {
     display: flex;
     flex-grow: 1;
-
+    align-items: center;
 }
 
 .header-container {
@@ -122,7 +122,7 @@ ul {
 
 /*  HERO */
 .hero {
-
+padding: 188px 0;
 }
 
 .container-hero {
@@ -151,7 +151,9 @@ ul {
         border: none;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         padding: 16px 32px;
-        display: flex;
+        min-width: 169px;
+        height: 56px;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 48px;
@@ -166,7 +168,7 @@ ul {
 /* FEATURES */
 
 .features {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .features-list {
@@ -185,6 +187,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em; 
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -214,6 +217,7 @@ ul {
         letter-spacing: 0.02em; 
         text-transform: capitalize;
         margin-bottom: 72px;
+        margin-bottom: 8px
 }
 
 .team-list {
@@ -266,6 +270,7 @@ ul {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -303,13 +308,15 @@ ul {
 }
 
 .portfolio-container {
-    padding-left: 16px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 /*FOOTER*/
 .footer {
-    
+    padding: 100px 0;
 }
 
 .container-footer {
@@ -327,6 +334,8 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -339,4 +348,5 @@ ul {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px
 }
